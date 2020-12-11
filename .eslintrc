@@ -1,0 +1,19 @@
+{
+    "extends": [
+        "@dasa-health/dasa-health-js",
+        "@dasa-health/dasa-health-js/config/react",
+        "@dasa-health/dasa-health-js/config/typescript"
+    ],
+    "parserOptions": {
+        // Required for certain syntax usages
+        "ecmaVersion": 2020
+      },
+    "overrides": [
+        {
+            "files": ["src/**"],
+            "rules": {
+                "sort-keys": "off"
+            }
+        }
+    ]
+}
